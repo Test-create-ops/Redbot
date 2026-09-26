@@ -1,0 +1,28 @@
+keys,it
+GAME_TITLE,Redbot
+MENU_CONTINUE,Continua
+MENU_NEW_GAME,Nuova partita
+MENU_SETTINGS,Impostazioni
+MENU_QUIT,Esci
+MENU_PAUSED,Pausa
+MENU_RESUME,Riprendi
+MENU_RETRY,Ricomincia incontro
+MENU_MAIN,Menu principale
+MENU_BACK,Indietro
+music_volume,Volume musica
+sfx_volume,Volume effetti
+text_scale,Dimensione testo
+screen_shake,Scuotimento camera
+show_vision_cones,Mostra coni di vista
+OBJ_RELIC,Obiettivo: raggiungi la reliquia
+HUD_BOLTS,Vitoni: %d
+TOAST_NOISE,Hanno sentito
+TOAST_CHECKPOINT,Checkpoint
+CAUGHT_TITLE,Preso
+CAUGHT_HINT,Sei stato visto. Prova un'altra strada.
+CAUGHT_RETRY,Riprova
+WON_TITLE,Reliquia recuperata
+WON_SUB,Nessuno e' stato ferito. Era il piano.
+WON_AGAIN,Rigioca
+PAD_COLLEGATO,Ricollega un controller
+LEVEL_LEVEL_01,Livello 01: Deposito

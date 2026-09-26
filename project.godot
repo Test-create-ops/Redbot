@@ -1,0 +1,60 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Redbot"
+config/description="2D stealth-action. Non puoi vincere unFight: puoi solo non farti vedere."
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "Mobile")
+boot_splash/show_image=false
+config/icon="res://icon.svg"
+
+[autoload]
+
+InputSetup="*res://autoload/input_setup.gd"
+Settings="*res://autoload/settings.gd"
+SaveGame="*res://autoload/savegame.gd"
+Game="*res://autoload/game.gd"
+
+[debug]
+
+gdscript/warnings/untyped_declaration=1
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[file_customization]
+
+folder_colors={
+"res://autoload/": "purple",
+"res://data/": "yellow",
+"res://tools/": "gray"
+}
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://locale/game.en.en.translation", "res://locale/game.it.it.translation")
+
+[physics]
+
+2d/default_gravity=0.0
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
+2d/snap/snap_2d_transforms_to_pixel=true
+2d/snap/snap_pixel_transforms_to_pixel=true

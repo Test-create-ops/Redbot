@@ -1,0 +1,28 @@
+keys,en
+GAME_TITLE,Redbot
+MENU_CONTINUE,Continue
+MENU_NEW_GAME,New Game
+MENU_SETTINGS,Settings
+MENU_QUIT,Quit
+MENU_PAUSED,Paused
+MENU_RESUME,Resume
+MENU_RETRY,Restart encounter
+MENU_MAIN,Main Menu
+MENU_BACK,Back
+music_volume,Music volume
+sfx_volume,Effects volume
+text_scale,Text size
+screen_shake,Screen shake
+show_vision_cones,Show vision cones
+OBJ_RELIC,Objective: reach the relic
+HUD_BOLTS,Bolts: %d
+TOAST_NOISE,It heard that
+TOAST_CHECKPOINT,Checkpoint
+CAUGHT_TITLE,Caught
+CAUGHT_HINT,You were seen. Try a different route.
+CAUGHT_RETRY,Try again
+WON_TITLE,Relic recovered
+WON_SUB,Nobody was hurt. That was the plan.
+WON_AGAIN,Play again
+PAD_COLLEGATO,Reconnect a controller
+LEVEL_LEVEL_01,Level 01: Storage
