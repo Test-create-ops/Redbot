@@ -26,7 +26,17 @@ func _ready() -> void:
 	vb.offset_bottom = -180.0
 	add_child(vb)
 
+	# Background dentro il VBoxContainer
+	var bg := Panel.new()
+	bg.name = "Background"
+	bg.add_theme_stylebox_override("panel", StyleBoxFlat.new())
+	(bg.get_theme_stylebox("panel") as StyleBoxFlat).bg_color = Color(0.10, 0.11, 0.14, 0.98)
+	bg.set_anchors_preset(Control.PRESET_FULL_RECT)
+	vb.add_child(bg)
+	vb.move_child(bg, 0)
+
 	var t := Label.new()
+	t.name = "Title"
 	t.name = "Title"
 	t.text = L10n.t("MENU_SETTINGS")
 	t.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER

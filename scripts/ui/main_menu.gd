@@ -24,10 +24,10 @@ func _ready() -> void:
 	vb.add_child(title)
 
 	if SaveGame.exists(0):
-		_continue_btn = _mk(vb, "Continua", L10n.t("MENU_CONTINUE"), _on_continue)
-	_mk(vb, "Nuova partita", L10n.t("MENU_NEW_GAME"), _on_new)
-	_mk(vb, "Impostazioni", L10n.t("MENU_SETTINGS"), _on_settings)
-	_mk(vb, "Esci", L10n.t("MENU_QUIT"), _on_quit)
+		_continue_btn = _mk(vb, "Continua", L10n.t("MENU_CONTINUE"), Callable(self, "_on_continue"))
+	_mk(vb, "Nuova partita", L10n.t("MENU_NEW_GAME"), Callable(self, "_on_new"))
+	_mk(vb, "Impostazioni", L10n.t("MENU_SETTINGS"), Callable(self, "_on_settings"))
+	_mk(vb, "Esci", L10n.t("MENU_QUIT"), Callable(self, "_on_quit"))
 
 	var col := vb
 	col.set_anchors_preset(Control.PRESET_FULL_RECT)
