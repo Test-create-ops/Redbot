@@ -10,11 +10,26 @@ var _continue_btn: Button
 
 func _ready() -> void:
 	name = "MainMenu"
+
 	var vb := VBoxContainer.new()
 	vb.name = "Col"
 	vb.add_theme_constant_override("separation", 24)
 	vb.alignment = BoxContainer.ALIGNMENT_CENTER
+	vb.set_anchors_preset(Control.PRESET_FULL_RECT)
+	vb.offset_left = 480.0
+	vb.offset_right = -480.0
+	vb.offset_top = 120.0
+	vb.offset_bottom = -120.0
 	add_child(vb)
+
+	# Background dentro VBoxContainer (stessa safe area)
+	var bg := Panel.new()
+	bg.name = "Background"
+	bg.add_theme_stylebox_override("panel", StyleBoxFlat.new())
+	(bg.get_theme_stylebox("panel") as StyleBoxFlat).bg_color = Color(0.10, 0.11, 0.14, 0.98)
+	bg.set_anchors_preset(Control.PRESET_FULL_RECT)
+	vb.add_child(bg)
+	vb.move_child(bg, 0)
 
 	var title := Label.new()
 	title.name = "Title"
@@ -72,6 +87,7 @@ func _on_continue() -> void:
 
 
 func _on_new() -> void:
+	print("MainMenu: _on_new clicked")
 	SaveGame.delete(0)
 	Game.goto(Game.State.PLAYING)
 

@@ -61,9 +61,9 @@ wall_visual.gd::GDScript::1512617414858468288::1790432767::0::1::::WallVisual<>N
 world.gd::GDScript::2063206828597076076::1790441014::0::1::::World<>Node2D<><>0<>0<><>::
 ::res://scripts/ui/::1790424174
 caught_screen.gd::GDScript::8654513562437330964::1790425064::0::1::::CaughtScreen<>Control<><>0<>0<><>::
-main_menu.gd::GDScript::6979493582149985229::1790441824::0::1::::MainMenu<>Control<><>0<>0<><>::
+main_menu.gd::GDScript::6979493582149985229::1790442300::0::1::::MainMenu<>Control<><>0<>0<><>::
 pause_menu.gd::GDScript::1532187826603917580::1790425064::0::1::::PauseMenu<>Control<><>0<>0<><>::
-settings_screen.gd::GDScript::5146910153020807885::1790441913::0::1::::SettingsScreen<>Control<><>0<>0<><>::
+settings_screen.gd::GDScript::5146910153020807885::1790442871::0::1::::SettingsScreen<>Control<><>0<>0<><>::
 won_screen.gd::GDScript::6890595376915931147::1790425064::0::1::::WonScreen<>Control<><>0<>0<><>::
 ::res://tools/::1790425690
 qa_idxbox.gd::GDScript::5845678211322886579::1790426680::0::1::::<>Node<><>0<>0<><>::
