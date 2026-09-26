@@ -183,7 +183,7 @@ func _spawn_door(rect: Rect2) -> void:
 
 
 func _spawn_key(pos: Vector2) -> void:
-	var k := Node2D.new()
+	var k := Area2D.new()
 	k.name = "Key"
 	k.position = pos
 	var sp := Sprite2D.new()
@@ -195,7 +195,9 @@ func _spawn_key(pos: Vector2) -> void:
 	circ.radius = 14.0
 	cs.shape = circ
 	k.add_child(cs)
-	k.connect("body_entered", _on_key_touched)
+	k.monitoring = true
+	k.monitorable = true
+	k.body_entered.connect(_on_key_touched)
 	add_child(k)
 	_keys.append(k)
 

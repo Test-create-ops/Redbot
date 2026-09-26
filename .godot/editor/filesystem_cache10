@@ -58,7 +58,7 @@ robot_visual.gd::GDScript::5088341786154302636::1790432747::0::1::::RobotVisual<
 sentinel_visual.gd::GDScript::5440506328004262382::1790432747::0::1::::SentinelVisual<>Node2D<><>0<>0<><>::
 ui.gd::GDScript::1076677756733560750::1790425061::0::1::::Ui<>RefCounted<><>0<>0<><>::
 wall_visual.gd::GDScript::1512617414858468288::1790432767::0::1::::WallVisual<>Node2D<><>0<>0<><>::
-world.gd::GDScript::2063206828597076076::1790441014::0::1::::World<>Node2D<><>0<>0<><>::
+world.gd::GDScript::2063206828597076076::1790443179::0::1::::World<>Node2D<><>0<>0<><>::
 ::res://scripts/ui/::1790424174
 caught_screen.gd::GDScript::8654513562437330964::1790425064::0::1::::CaughtScreen<>Control<><>0<>0<><>::
 main_menu.gd::GDScript::6979493582149985229::1790442300::0::1::::MainMenu<>Control<><>0<>0<><>::
